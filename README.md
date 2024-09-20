@@ -4,18 +4,18 @@
 
 ## Utiliser l'invite de commandes
 
-- `C:\>` `dir` *afficher les répertoires du dossier courant*
-- `C:\>` `cd [repertoire_cible]` *se déplacer vers le répertoire cible*
-- `C:\repertoire_cible>` `cd [chemin\vers\le\repertoire\cible]` *se déplacer vers le répertoire cible se situant à plusieurs répertoires du répertoire courant*
-- `C:\repertoire_cible\chemin\vers\le\repertoire\cible>` `cd..` *revenir au répertoire précédent*
-- `C:\repertoire_cible\chemin\vers\le\repertoire>` `D:` *changer de disque*
+- `C:\>` **`dir`** *afficher les répertoires du dossier courant*
+- `C:\>` **`cd [repertoire_cible]`** *se déplacer vers le répertoire cible*
+- `C:\repertoire_cible>` **`cd [chemin\vers\le\repertoire\cible]`** *se déplacer vers le répertoire cible se situant à plusieurs répertoires du répertoire courant*
+- `C:\repertoire_cible\chemin\vers\le\repertoire\cible>` **`cd..`** *revenir au répertoire précédent*
+- `C:\repertoire_cible\chemin\vers\le\repertoire>` **`D:`** *changer de disque*
 - `D:\>`
 
 ## Activer OTB
 
-`C:\>` `cd OTB-9.0.0-Win64`
+`C:\>` **`cd OTB-9.0.0-Win64`**
 
-`C:\OTB-9.0.0-Win64>` `otbenv.bat`
+`C:\OTB-9.0.0-Win64>` **`otbenv.bat`**
  
 
 ## Composition colorée vraies couleurs
