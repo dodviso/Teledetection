@@ -60,3 +60,7 @@ Infrarouge proche (NIR) : ~700-1100 nm
 Faible réflectance : La surface absorbe beaucoup de lumière dans cette bande et en reflète peu.
 Modéré : La surface reflète une quantité moyenne de lumière.
 Élevé : La surface réfléchit une grande quantité de lumière.
+
+### Ordres de bandes spectrales Sentinel-2
+
+![schéma bandes S2](images_readme/bandes_sentinel2.png)
