@@ -1,13 +1,42 @@
 # Télédétection
 
+> Site de Marc Lang : https://mlang.frama.io/cours-marc-lang/
+
 ## Utiliser l'invite de commandes
 
-- `> dir` : afficher les répertoires du dossier courant
-- `> cd [Repertoire cible]` : se déplacer vers le répertoire cible
-- `> cd [chemin\vers\le\repertoire\cible]` : se déplacer vers le répertoire cible se situant à plusieurs répertoires du répertoire courant
-- `> cd..` : revenir au répertoire précédent
-- `> D:` : changer de disque
+- `C:\>` `dir` *afficher les répertoires du dossier courant*
+- `C:\>` `cd [repertoire_cible]` *se déplacer vers le répertoire cible*
+- `C:\repertoire_cible>` `cd [chemin\vers\le\repertoire\cible]` *se déplacer vers le répertoire cible se situant à plusieurs répertoires du répertoire courant*
+- `C:\repertoire_cible\chemin\vers\le\repertoire\cible>` `cd..` *revenir au répertoire précédent*
+- `C:\repertoire_cible\chemin\vers\le\repertoire>` `D:` *changer de disque*
+- `D:\>`
+
+## Activer OTB
+
+`C:\>` `cd OTB-9.0.0-Win64`
+
+`C:\OTB-9.0.0-Win64>` `otbenv.bat`
  
+
+## Composition colorée vraies couleurs
+
+|**Canal**|**Domaine spectral**|
+|-----------|------------------|
+|Rouge|Rouge|
+|Vert|Vert|
+|Bleu|Bleu|
+
+## Composition colorées IRC fausses couleurs
+Cette composition est utilisée pour mettre en avant la végétation
+
+|**Canal**|**Domaine spectral**|
+|-----------|------------------|
+|Rouge|Infra-Rouge|
+|Vert|Rouge|
+|Bleu|Vert|
+
+
+
 
 ## Règles d'interprétation des bandes spectrales (réflectance)
 
